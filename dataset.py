@@ -1,7 +1,6 @@
 from torch.utils.data import Dataset
 import os
 
-
 class IMDBDataset(Dataset):
     def __init__(self, train=True):
         self.train = train
@@ -18,19 +17,14 @@ class IMDBDataset(Dataset):
         return len(self.files_neg) + len(self.files_pos)
 
     def __getitem__(self, idx):
-        positive = idx > len(self.files_neg)
-        if positive:
+        if idx < len(self.files_neg):
+            dir = self.dir + '/neg/' + self.files_neg[idx]
+            label = 0
+        else:
             idx -= len(self.files_neg)
-        dir = self.dir + ('/pos/' + self.files_pos[idx] if positive else '/neg/' + self.files_neg[idx])
-        with open(dir, 'r') as file:
+            dir = self.dir + '/pos/' + self.files_pos[idx]
+            label = 1
+
+        with open(dir, 'r', encoding='utf-8') as file:
             text = file.read()
-        return text, 1 if positive else 0
-
-
-
-if __name__ == '__main__':
-    dataset = IMDBDataset()
-    test1 = dataset.__getitem__(0)
-    test2 = dataset.__getitem__(13000)
-    print(test1)
-    print(test2)
+        return text, label
