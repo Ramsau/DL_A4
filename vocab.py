@@ -1,10 +1,12 @@
 from collections import Counter
 import re
+import numpy as np
 
 def tokenize(text):
     text = text.lower()
     tokens = re.findall(r'\b\w+\b', text)
     return tokens
+
 
 
 class Vocabulary:

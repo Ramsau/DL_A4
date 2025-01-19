@@ -5,7 +5,7 @@ def get_config():
         "embed_dim": 100,
         "hidden_dim": 128,
         "bidirectional": True,
-        "num_epochs": 2,
+        "num_epochs": 10,
         "print_batches_label_amount": 0,
         "print_batches_raw": False,
         # 0-12499 = neg; 12500-24999 = pos
