@@ -14,7 +14,7 @@ from tqdm import tqdm  # Fancy training progress bar
 # Our includes
 from vocab import Vocabulary
 from model import RNNClassifier
-from config import get_config
+from config import *
 
 from matplotlib import pyplot as plt
 
@@ -61,51 +61,51 @@ def build_vocab_from_dataset(dataset, vocab_file="vocab.pkl"):
     return vocab
 
 def main(config):
-    print("Creating datasets...")
+    print("\n=======================================")
+    print(f"Running with config: {config}")
+    print("=======================================\n")
+
+    # Create datasets
     dataset_train = IMDBDataset(train=True)
     dataset_test = IMDBDataset(train=False)
-    print(f"Number of training samples: {len(dataset_train)}")
-    print(f"Number of testing samples: {len(dataset_test)}")
 
+    # Build/load vocabulary
     vocab = build_vocab_from_dataset(dataset_train)
 
-    print("Creating DataLoaders...")
-    train_loader = DataLoader(dataset_train, batch_size=config["batch_size"], shuffle=True,
-                              collate_fn=lambda batch: collate_fn(batch, vocab))
-    # shuffle=True so we not only get 0 in the first test batches to print
-    test_loader = DataLoader(dataset_test, batch_size=config["batch_size"], shuffle=True,
-                             collate_fn=lambda batch: collate_fn(batch, vocab))
+    # Create DataLoaders
+    train_loader = DataLoader(
+        dataset_train, batch_size=config["batch_size"], shuffle=True,
+        collate_fn=lambda batch: collate_fn(batch, vocab)
+    )
+    test_loader = DataLoader(
+        dataset_test, batch_size=config["batch_size"], shuffle=False,
+        collate_fn=lambda batch: collate_fn(batch, vocab)
+    )
 
-    # Test DataLoader
-    print("Testing DataLoader with one batch...")
-    try:
-        for i, (inputs, lengths, labels) in enumerate(train_loader):
-            print(f"Sample Batch {i+1}:")
-            print(f"  Inputs shape: {inputs.shape}")
-            print(f"  Lengths: {lengths}")
-            print(f"  Labels shape: {labels.shape}")
-            break
-    except Exception as e:
-        print(f"Error during DataLoader testing: {e}")
-        return
+    model = RNNClassifier(
+        vocab_size=len(vocab.itos),
+        embed_dim=config['embed_dim'],
+        hidden_dim=config['hidden_dim'],
+        num_layers=config['num_layers'],
+        bidirectional=config['bidirectional']
+    )
 
-    print("Initializing model, loss function, and optimizer...")
-    model = RNNClassifier(vocab_size=len(vocab.itos), embed_dim=config['embed_dim'], hidden_dim=config['hidden_dim']
-                          , bidirectional=config['bidirectional'])
     criterion = nn.BCEWithLogitsLoss()
     optimizer = optim.Adam(model.parameters(), lr=config['learning_rate'])
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"Using device: {device}")
     model.to(device)
 
-    test_losses = []
     train_losses = []
+    test_losses = []
+    best_test_accuracy = 0.0
+
     for epoch in range(config['num_epochs']):
-        print(f"\n=== Starting Epoch {epoch+1}/{config['num_epochs']} ===")
+        print(f"\n=== Starting Epoch {epoch + 1}/{config['num_epochs']} ===")
         model.train()
         total_loss = 0
-        for batch_idx, (inputs, lengths, labels) in enumerate(tqdm(train_loader, desc=f"Epoch {epoch + 1}")):
+
+        for batch_idx, (inputs, lengths, labels) in enumerate(tqdm(train_loader, desc=f"Epoch {epoch+1}")):
             inputs, lengths, labels = inputs.to(device), lengths.to(device), labels.to(device)
 
             optimizer.zero_grad()
@@ -116,52 +116,48 @@ def main(config):
 
             total_loss += loss.item()
 
-        average_loss = total_loss / len(train_loader)
-        print(f"--- Epoch [{epoch + 1}] Average Loss: {average_loss:.4f} ---")
-        train_losses.append(average_loss)
+        average_train_loss = total_loss / len(train_loader)
+        train_losses.append(average_train_loss)
+        print(f"--- Epoch [{epoch + 1}] Average Training Loss: {average_train_loss:.4f} ---")
 
-        # Evaluation
-        print(f"Evaluating after Epoch {epoch + 1}...")
         model.eval()
         correct = 0
         total = 0
+        total_test_loss = 0
 
-        print_batches = config['print_batches_label_amount']
-        total_loss = 0
         with torch.no_grad():
             for inputs, lengths, labels in test_loader:
                 inputs, lengths, labels = inputs.to(device), lengths.to(device), labels.to(device)
                 outputs = model(inputs, lengths)
-                predictions = torch.sigmoid(outputs) >= 0.5
+                predictions = (torch.sigmoid(outputs) >= 0.5).float()
                 total += labels.size(0)
-                correct += (predictions.float() == labels).sum().item()
-                loss = criterion(outputs, labels)
-                total_loss += loss.item()
+                correct += (predictions == labels).sum().item()
+                test_loss = criterion(outputs, labels)
+                total_test_loss += test_loss.item()
 
+        average_test_loss = total_test_loss / len(test_loader)
+        test_losses.append(average_test_loss)
 
-                # Prints patches and according predictions
-                if print_batches > 0:
-                    print(f"\n--- Test Batch {print_batches + 1} ---")
-                    print(f"Predictions: {predictions.cpu().numpy()}")
-                    print(f"True labels: {labels.cpu().numpy()}")
-                    print_batches -= 1
-        print(f"Test Accuracy after epoch {epoch + 1}: {100 * correct / total:.2f}%")
-        average_loss = total_loss / len(test_loader)
-        test_losses.append(average_loss)
+        test_accuracy = 100.0 * correct / total
+        print(f"Test Accuracy after epoch {epoch + 1}: {test_accuracy:.2f}%")
 
-        # Also prints patches and predictions, but also raw text...
+        if test_accuracy > best_test_accuracy:
+            best_test_accuracy = test_accuracy
+            torch.save({
+                'model_state_dict': model.state_dict(),
+                'vocab': vocab,
+            }, config['save_model_name'] + "_best.pth")
+
         if config['print_batches_raw']:
             debug_print_sample(model, dataset_test, vocab, device, config)
 
-    print("Training complete.")
-
-    # Save the trained model along with the vocabulary
-    save_path = config['save_model_name'] + ".pth"
+    final_save_path = config['save_model_name'] + ".pth"
     torch.save({
         'model_state_dict': model.state_dict(),
         'vocab': vocab,
-    }, save_path)
-    print("Saved model.")
+    }, final_save_path)
+    print(f"\nTraining complete. Best Test Accuracy: {best_test_accuracy:.2f}%")
+    print(f"Saved final model to {final_save_path}.\n")
 
     plt.figure(figsize=(20, 10))
     plt.plot(train_losses, label='Training Loss')
@@ -169,9 +165,34 @@ def main(config):
     plt.legend()
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
+    plt.title(f"Loss Curves for config: {config}")
     plt.show()
+
+    return best_test_accuracy
+
+
+def run_grid_search():
+    configs = get_grid_configs()
+    best_acc = 0.0
+    best_config = None
+
+    for cfg in configs:
+        acc = main(cfg)
+        if acc > best_acc:
+            best_acc = acc
+            best_config = cfg
+
+    print("\n=======================================")
+    print("Grid Search Complete!")
+    print(f"Best Accuracy: {best_acc:.2f}%")
+    print("Best Config:")
+    print(best_config)
+    print("=======================================")
 
 
 if __name__ == '__main__':
-    config = get_config()
-    main(config)
+
+    # single_config = get_config()
+    # main(single_config)
+
+    run_grid_search()
