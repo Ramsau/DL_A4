@@ -16,6 +16,8 @@ from vocab import Vocabulary
 from model import RNNClassifier
 from config import get_config
 
+from matplotlib import pyplot as plt
+
 def debug_print_sample(model, dataset, vocab, device, config):
     indices = config['print_batches_raw_indices']
     model.eval()
@@ -97,6 +99,8 @@ def main(config):
     print(f"Using device: {device}")
     model.to(device)
 
+    test_losses = []
+    train_losses = []
     for epoch in range(config['num_epochs']):
         print(f"\n=== Starting Epoch {epoch+1}/{config['num_epochs']} ===")
         model.train()
@@ -114,6 +118,7 @@ def main(config):
 
         average_loss = total_loss / len(train_loader)
         print(f"--- Epoch [{epoch + 1}] Average Loss: {average_loss:.4f} ---")
+        train_losses.append(average_loss)
 
         # Evaluation
         print(f"Evaluating after Epoch {epoch + 1}...")
@@ -122,6 +127,7 @@ def main(config):
         total = 0
 
         print_batches = config['print_batches_label_amount']
+        total_loss = 0
         with torch.no_grad():
             for inputs, lengths, labels in test_loader:
                 inputs, lengths, labels = inputs.to(device), lengths.to(device), labels.to(device)
@@ -129,6 +135,9 @@ def main(config):
                 predictions = torch.sigmoid(outputs) >= 0.5
                 total += labels.size(0)
                 correct += (predictions.float() == labels).sum().item()
+                loss = criterion(outputs, labels)
+                total_loss += loss.item()
+
 
                 # Prints patches and according predictions
                 if print_batches > 0:
@@ -137,6 +146,8 @@ def main(config):
                     print(f"True labels: {labels.cpu().numpy()}")
                     print_batches -= 1
         print(f"Test Accuracy after epoch {epoch + 1}: {100 * correct / total:.2f}%")
+        average_loss = total_loss / len(test_loader)
+        test_losses.append(average_loss)
 
         # Also prints patches and predictions, but also raw text...
         if config['print_batches_raw']:
@@ -151,6 +162,14 @@ def main(config):
         'vocab': vocab,
     }, save_path)
     print("Saved model.")
+
+    plt.figure(figsize=(20, 10))
+    plt.plot(train_losses, label='Training Loss')
+    plt.plot(test_losses, label='Test Loss')
+    plt.legend()
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.show()
 
 
 if __name__ == '__main__':
