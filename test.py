@@ -2,9 +2,7 @@ import argparse
 import random
 import torch
 from torch.nn.utils.rnn import pad_sequence
-
 from dataset import IMDBDataset
-
 from model import RNNClassifier
 from config import get_config
 
