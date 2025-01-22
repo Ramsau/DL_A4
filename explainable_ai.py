@@ -7,6 +7,10 @@ from torch.nn.utils.rnn import pad_sequence
 from dataset import IMDBDataset
 from model import RNNClassifier
 from config import get_config
+import shap
+import matplotlib.pyplot as plt
+
+EXPLAINER = 'SHAP'
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -61,6 +65,33 @@ def explain_with_lime(model, vocab, device, text_sample):
 
 
 
+def explain_with_shap(model, vocab, device, text_sample):
+
+    def model_forward(texts):
+        tokenized_texts = [torch.tensor(tokenize(text, vocab), dtype=torch.long).to(device) for text in texts]
+        lengths = torch.tensor([len(seq) for seq in tokenized_texts], dtype=torch.long).to(device)
+
+        if not tokenized_texts:
+            return np.array([[0.5, 0.5]] * len(texts))
+
+        padded_texts = pad_sequence(tokenized_texts, batch_first=True, padding_value=vocab.stoi['<pad>'])
+        with torch.no_grad():
+            outputs = model(padded_texts, lengths)
+            probs = torch.sigmoid(outputs).cpu().numpy()
+        return probs
+
+    masker = shap.maskers.Text(mask_token=vocab.itos[vocab.stoi['<pad>']])
+    explainer = shap.Explainer(model_forward, masker)
+    shap_values = explainer([text_sample])
+    print(text_sample)
+    shap.force_plot(shap_values[0], matplotlib=True)
+    shap.waterfall_plot(shap_values[0], max_display=20) 
+
+
+
+
+    
+
 def load_model(config, device):
     checkpoint = torch.load("best_model/rnn_classifier_64_0.001_200_256_1_4_best.pth", map_location=device, weights_only=False)
     saved_vocab = checkpoint['vocab']
@@ -83,8 +114,11 @@ def main_xai():
     sample_index = np.random.randint(0, len(dataset_test))
     text_sample, true_label = dataset_test[sample_index]
 
-    logger.info("\nUsing LIME to explain prediction on a sample:")
-    explain_with_lime(model, saved_vocab, device, text_sample)
+    logger.info(f'\nUsing {EXPLAINER} to explain prediction on a sample:')
+    if(EXPLAINER == "SHAP"):
+        explain_with_shap(model, saved_vocab, device, text_sample)
+    elif(EXPLAINER == "LIME"):
+        explain_with_lime(model, saved_vocab, device, text_sample)
 
 
 
