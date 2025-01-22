@@ -27,7 +27,7 @@ def collate_fn(batch, vocab, max_seq_len=None):
 
 
 def main(config, sample_index=None):
-    checkpoint = torch.load(config['load_model_name'] + ".pth", map_location="cpu")
+    checkpoint = torch.load("best_model/rnn_classifier_64_0.001_200_256_1_4_best.pth", map_location="cpu")
     saved_vocab = checkpoint['vocab']
 
     model = RNNClassifier(vocab_size=len(saved_vocab.itos), embed_dim=config['embed_dim'],

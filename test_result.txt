@@ -1,0 +1,11 @@
+Using device: cuda
+================================================================================
+Raw text of the selected test sample:
+It is great to see a new batch of puppets creating havoc in this series. I found this chapter a lot of fun. In fact, it would probably be my second favorite in the series. This movie has very little v...
+================================================================================
+Random Test Sample Prediction:
+Predicted probability: 0.9968
+Predicted label: 1
+Ground truth label: 1
+
+Process finished with exit code 0

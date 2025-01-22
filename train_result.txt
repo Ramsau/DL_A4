@@ -1,0 +1,2901 @@
+/home/felix/Desktop/DL_A4/.venv/bin/python /home/felix/Desktop/DL_A4/main.py
+Number of configs to check 72
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.01_100_128_1', 'load_model_name': 'rnn_classifier_32_0.01_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:37<00:00, 20.65it/s]
+--- Epoch [1] Average Training Loss: 0.4814 ---
+Test Accuracy after epoch 1: 79.36%
+All files in 'best_model' have been deleted.
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:34<00:00, 22.47it/s]
+--- Epoch [2] Average Training Loss: 0.2895 ---
+Test Accuracy after epoch 2: 83.07%
+All files in 'best_model' have been deleted.
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:37<00:00, 21.05it/s]
+--- Epoch [3] Average Training Loss: 0.2238 ---
+Test Accuracy after epoch 3: 84.06%
+All files in 'best_model' have been deleted.
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:36<00:00, 21.53it/s]
+--- Epoch [4] Average Training Loss: 0.2715 ---
+Epoch 5:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 4: 77.58%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:36<00:00, 21.15it/s]
+--- Epoch [5] Average Training Loss: 0.3195 ---
+Test Accuracy after epoch 5: 75.21%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:34<00:00, 22.38it/s]
+--- Epoch [6] Average Training Loss: 0.3401 ---
+Test Accuracy after epoch 6: 76.87%
+
+Training complete. Best Test Accuracy: 84.06%
+Saved final model to models/rnn_classifier_32_0.01_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.01_100_128_2', 'load_model_name': 'rnn_classifier_32_0.01_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:54<00:00, 14.42it/s]
+--- Epoch [1] Average Training Loss: 0.4403 ---
+Test Accuracy after epoch 1: 87.49%
+All files in 'best_model' have been deleted.
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:52<00:00, 14.76it/s]
+--- Epoch [2] Average Training Loss: 0.2536 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 84.07%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:53<00:00, 14.62it/s]
+--- Epoch [3] Average Training Loss: 0.2094 ---
+Test Accuracy after epoch 3: 87.13%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:53<00:00, 14.60it/s]
+--- Epoch [4] Average Training Loss: 0.1599 ---
+Test Accuracy after epoch 4: 86.59%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:53<00:00, 14.63it/s]
+--- Epoch [5] Average Training Loss: 0.1392 ---
+Test Accuracy after epoch 5: 86.51%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:53<00:00, 14.57it/s]
+--- Epoch [6] Average Training Loss: 0.1327 ---
+Test Accuracy after epoch 6: 85.95%
+
+Training complete. Best Test Accuracy: 87.49%
+Saved final model to models/rnn_classifier_32_0.01_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.01_100_256_1', 'load_model_name': 'rnn_classifier_32_0.01_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:41<00:00, 18.75it/s]
+--- Epoch [1] Average Training Loss: 0.4530 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 85.14%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:41<00:00, 18.64it/s]
+--- Epoch [2] Average Training Loss: 0.2558 ---
+Test Accuracy after epoch 2: 85.70%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:42<00:00, 18.48it/s]
+--- Epoch [3] Average Training Loss: 0.1988 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 85.74%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:41<00:00, 18.63it/s]
+--- Epoch [4] Average Training Loss: 0.1646 ---
+Test Accuracy after epoch 4: 85.28%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:42<00:00, 18.58it/s]
+--- Epoch [5] Average Training Loss: 0.1605 ---
+Test Accuracy after epoch 5: 82.72%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:41<00:00, 19.01it/s]
+--- Epoch [6] Average Training Loss: nan ---
+Test Accuracy after epoch 6: 50.00%
+
+Training complete. Best Test Accuracy: 87.49%
+Saved final model to models/rnn_classifier_32_0.01_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.01_100_256_2', 'load_model_name': 'rnn_classifier_32_0.01_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [01:20<00:00,  9.66it/s]
+--- Epoch [1] Average Training Loss: 0.7230 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 56.00%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [01:21<00:00,  9.60it/s]
+--- Epoch [2] Average Training Loss: 0.6182 ---
+Test Accuracy after epoch 2: 63.94%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [01:21<00:00,  9.57it/s]
+--- Epoch [3] Average Training Loss: 0.5266 ---
+Test Accuracy after epoch 3: 57.40%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [01:21<00:00,  9.60it/s]
+--- Epoch [4] Average Training Loss: 0.3980 ---
+Test Accuracy after epoch 4: 75.35%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [01:21<00:00,  9.58it/s]
+--- Epoch [5] Average Training Loss: 0.2389 ---
+Test Accuracy after epoch 5: 76.94%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [01:21<00:00,  9.60it/s]
+--- Epoch [6] Average Training Loss: 0.1367 ---
+Test Accuracy after epoch 6: 76.94%
+
+Training complete. Best Test Accuracy: 87.49%
+Saved final model to models/rnn_classifier_32_0.01_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.01_200_128_1', 'load_model_name': 'rnn_classifier_32_0.01_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:35<00:00, 22.17it/s]
+--- Epoch [1] Average Training Loss: 0.4946 ---
+Test Accuracy after epoch 1: 80.88%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:34<00:00, 22.76it/s]
+--- Epoch [2] Average Training Loss: 0.3053 ---
+Test Accuracy after epoch 2: 80.05%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:35<00:00, 22.34it/s]
+--- Epoch [3] Average Training Loss: 0.2374 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 81.86%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:33<00:00, 23.13it/s]
+--- Epoch [4] Average Training Loss: 0.1964 ---
+Test Accuracy after epoch 4: 81.73%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:34<00:00, 22.48it/s]
+--- Epoch [5] Average Training Loss: 0.2133 ---
+Test Accuracy after epoch 5: 77.56%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:33<00:00, 23.17it/s]
+--- Epoch [6] Average Training Loss: 0.2354 ---
+Test Accuracy after epoch 6: 78.60%
+
+Training complete. Best Test Accuracy: 87.49%
+Saved final model to models/rnn_classifier_32_0.01_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.01_200_128_2', 'load_model_name': 'rnn_classifier_32_0.01_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:54<00:00, 14.28it/s]
+--- Epoch [1] Average Training Loss: 0.3910 ---
+Test Accuracy after epoch 1: 88.05%
+All files in 'best_model' have been deleted.
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:54<00:00, 14.30it/s]
+--- Epoch [2] Average Training Loss: 0.2033 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 87.26%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:54<00:00, 14.32it/s]
+--- Epoch [3] Average Training Loss: 0.1392 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 87.16%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:54<00:00, 14.31it/s]
+--- Epoch [4] Average Training Loss: 0.1072 ---
+Epoch 5:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 4: 86.49%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:54<00:00, 14.26it/s]
+--- Epoch [5] Average Training Loss: 0.1044 ---
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 5: 85.32%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:54<00:00, 14.28it/s]
+--- Epoch [6] Average Training Loss: 0.0949 ---
+Test Accuracy after epoch 6: 84.81%
+
+Training complete. Best Test Accuracy: 88.05%
+Saved final model to models/rnn_classifier_32_0.01_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.01_200_256_1', 'load_model_name': 'rnn_classifier_32_0.01_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:43<00:00, 17.90it/s]
+--- Epoch [1] Average Training Loss: 0.4739 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 81.36%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:43<00:00, 17.79it/s]
+--- Epoch [2] Average Training Loss: 0.2948 ---
+Test Accuracy after epoch 2: 83.07%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:43<00:00, 17.82it/s]
+--- Epoch [3] Average Training Loss: 0.2461 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 81.84%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:43<00:00, 17.83it/s]
+--- Epoch [4] Average Training Loss: 0.2654 ---
+Test Accuracy after epoch 4: 80.13%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:43<00:00, 17.91it/s]
+--- Epoch [5] Average Training Loss: nan ---
+Test Accuracy after epoch 5: 50.00%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:43<00:00, 17.94it/s]
+--- Epoch [6] Average Training Loss: nan ---
+Test Accuracy after epoch 6: 50.00%
+
+Training complete. Best Test Accuracy: 88.05%
+Saved final model to models/rnn_classifier_32_0.01_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.01_200_256_2', 'load_model_name': 'rnn_classifier_32_0.01_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [01:25<00:00,  9.14it/s]
+--- Epoch [1] Average Training Loss: 0.5227 ---
+Test Accuracy after epoch 1: 83.30%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [01:25<00:00,  9.15it/s]
+--- Epoch [2] Average Training Loss: 0.3096 ---
+Test Accuracy after epoch 2: 86.06%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [01:25<00:00,  9.13it/s]
+--- Epoch [3] Average Training Loss: 0.2601 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 86.21%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [01:25<00:00,  9.10it/s]
+--- Epoch [4] Average Training Loss: 0.2554 ---
+Test Accuracy after epoch 4: 83.09%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [01:25<00:00,  9.14it/s]
+--- Epoch [5] Average Training Loss: nan ---
+Test Accuracy after epoch 5: 50.00%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [01:24<00:00,  9.22it/s]
+--- Epoch [6] Average Training Loss: nan ---
+Test Accuracy after epoch 6: 50.00%
+
+Training complete. Best Test Accuracy: 88.05%
+Saved final model to models/rnn_classifier_32_0.01_200_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.001_100_128_1', 'load_model_name': 'rnn_classifier_32_0.001_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:38<00:00, 20.33it/s]
+--- Epoch [1] Average Training Loss: 0.5512 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 76.82%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:35<00:00, 21.73it/s]
+--- Epoch [2] Average Training Loss: 0.3931 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 80.83%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:39<00:00, 20.01it/s]
+--- Epoch [3] Average Training Loss: 0.2704 ---
+Test Accuracy after epoch 3: 85.33%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:39<00:00, 19.89it/s]
+--- Epoch [4] Average Training Loss: 0.3130 ---
+Epoch 5:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 4: 82.50%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:37<00:00, 20.94it/s]
+--- Epoch [5] Average Training Loss: 0.1739 ---
+Test Accuracy after epoch 5: 86.91%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:38<00:00, 20.46it/s]
+--- Epoch [6] Average Training Loss: 0.1081 ---
+Test Accuracy after epoch 6: 87.03%
+
+Training complete. Best Test Accuracy: 88.05%
+Saved final model to models/rnn_classifier_32_0.001_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.001_100_128_2', 'load_model_name': 'rnn_classifier_32_0.001_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:53<00:00, 14.66it/s]
+--- Epoch [1] Average Training Loss: 0.5660 ---
+Test Accuracy after epoch 1: 76.14%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:53<00:00, 14.69it/s]
+--- Epoch [2] Average Training Loss: 0.4115 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 83.59%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:53<00:00, 14.73it/s]
+--- Epoch [3] Average Training Loss: 0.2560 ---
+Test Accuracy after epoch 3: 83.32%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:52<00:00, 14.77it/s]
+--- Epoch [4] Average Training Loss: 0.1700 ---
+Test Accuracy after epoch 4: 86.28%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:53<00:00, 14.62it/s]
+--- Epoch [5] Average Training Loss: 0.1053 ---
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 5: 87.65%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:53<00:00, 14.72it/s]
+--- Epoch [6] Average Training Loss: 0.0627 ---
+Test Accuracy after epoch 6: 86.75%
+
+Training complete. Best Test Accuracy: 88.05%
+Saved final model to models/rnn_classifier_32_0.001_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.001_100_256_1', 'load_model_name': 'rnn_classifier_32_0.001_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:41<00:00, 18.89it/s]
+--- Epoch [1] Average Training Loss: 0.5948 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 75.53%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:41<00:00, 18.85it/s]
+--- Epoch [2] Average Training Loss: 0.4922 ---
+Test Accuracy after epoch 2: 71.81%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:41<00:00, 18.95it/s]
+--- Epoch [3] Average Training Loss: 0.3428 ---
+Test Accuracy after epoch 3: 85.52%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:40<00:00, 19.45it/s]
+--- Epoch [4] Average Training Loss: 0.2071 ---
+Test Accuracy after epoch 4: 86.98%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:42<00:00, 18.30it/s]
+--- Epoch [5] Average Training Loss: 0.1310 ---
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 5: 87.47%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:41<00:00, 18.89it/s]
+--- Epoch [6] Average Training Loss: 0.0713 ---
+Test Accuracy after epoch 6: 87.26%
+
+Training complete. Best Test Accuracy: 88.05%
+Saved final model to models/rnn_classifier_32_0.001_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.001_100_256_2', 'load_model_name': 'rnn_classifier_32_0.001_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [01:21<00:00,  9.62it/s]
+--- Epoch [1] Average Training Loss: 0.5897 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 78.32%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [01:21<00:00,  9.60it/s]
+--- Epoch [2] Average Training Loss: 0.4146 ---
+Test Accuracy after epoch 2: 84.32%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [01:21<00:00,  9.56it/s]
+--- Epoch [3] Average Training Loss: 0.2749 ---
+Test Accuracy after epoch 3: 87.46%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [01:21<00:00,  9.60it/s]
+--- Epoch [4] Average Training Loss: 0.1887 ---
+Test Accuracy after epoch 4: 88.19%
+All files in 'best_model' have been deleted.
+Epoch 5:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [01:21<00:00,  9.58it/s]
+--- Epoch [5] Average Training Loss: 0.1307 ---
+Test Accuracy after epoch 5: 88.48%
+All files in 'best_model' have been deleted.
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [01:21<00:00,  9.58it/s]
+--- Epoch [6] Average Training Loss: 0.0800 ---
+Test Accuracy after epoch 6: 86.64%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.001_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.001_200_128_1', 'load_model_name': 'rnn_classifier_32_0.001_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:33<00:00, 23.28it/s]
+--- Epoch [1] Average Training Loss: 0.5494 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 80.78%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:36<00:00, 21.42it/s]
+--- Epoch [2] Average Training Loss: 0.3709 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 71.95%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:37<00:00, 20.87it/s]
+--- Epoch [3] Average Training Loss: 0.3288 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 76.44%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:33<00:00, 23.28it/s]
+--- Epoch [4] Average Training Loss: 0.2989 ---
+Epoch 5:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 4: 81.40%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:33<00:00, 23.18it/s]
+--- Epoch [5] Average Training Loss: 0.2101 ---
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 5: 85.34%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:33<00:00, 23.29it/s]
+--- Epoch [6] Average Training Loss: 0.1122 ---
+Test Accuracy after epoch 6: 84.64%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.001_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.001_200_128_2', 'load_model_name': 'rnn_classifier_32_0.001_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:54<00:00, 14.34it/s]
+--- Epoch [1] Average Training Loss: 0.5104 ---
+Test Accuracy after epoch 1: 82.57%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:54<00:00, 14.43it/s]
+--- Epoch [2] Average Training Loss: 0.3495 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 84.44%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:54<00:00, 14.45it/s]
+--- Epoch [3] Average Training Loss: 0.2415 ---
+Test Accuracy after epoch 3: 86.45%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:53<00:00, 14.49it/s]
+--- Epoch [4] Average Training Loss: 0.2279 ---
+Test Accuracy after epoch 4: 86.67%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:54<00:00, 14.40it/s]
+--- Epoch [5] Average Training Loss: 0.1435 ---
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 5: 87.85%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:54<00:00, 14.41it/s]
+--- Epoch [6] Average Training Loss: 0.0927 ---
+Test Accuracy after epoch 6: 88.04%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.001_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.001_200_256_1', 'load_model_name': 'rnn_classifier_32_0.001_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:43<00:00, 17.89it/s]
+--- Epoch [1] Average Training Loss: 0.5463 ---
+Test Accuracy after epoch 1: 81.71%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:43<00:00, 17.87it/s]
+--- Epoch [2] Average Training Loss: 0.3907 ---
+Test Accuracy after epoch 2: 85.30%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:43<00:00, 17.85it/s]
+--- Epoch [3] Average Training Loss: 0.2101 ---
+Test Accuracy after epoch 3: 87.12%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:43<00:00, 17.80it/s]
+--- Epoch [4] Average Training Loss: 0.1060 ---
+Test Accuracy after epoch 4: 86.84%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:43<00:00, 17.80it/s]
+--- Epoch [5] Average Training Loss: 0.0416 ---
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 5: 87.18%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:43<00:00, 17.83it/s]
+--- Epoch [6] Average Training Loss: 0.0188 ---
+Test Accuracy after epoch 6: 85.23%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.001_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.001_200_256_2', 'load_model_name': 'rnn_classifier_32_0.001_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [01:25<00:00,  9.18it/s]
+--- Epoch [1] Average Training Loss: 0.5383 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 82.34%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [01:26<00:00,  9.08it/s]
+--- Epoch [2] Average Training Loss: 0.4119 ---
+Test Accuracy after epoch 2: 83.57%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [01:25<00:00,  9.12it/s]
+--- Epoch [3] Average Training Loss: 0.2525 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 88.11%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [01:25<00:00,  9.11it/s]
+--- Epoch [4] Average Training Loss: 0.1603 ---
+Test Accuracy after epoch 4: 88.33%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [01:25<00:00,  9.11it/s]
+--- Epoch [5] Average Training Loss: 0.0960 ---
+Test Accuracy after epoch 5: 87.25%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [01:25<00:00,  9.13it/s]
+--- Epoch [6] Average Training Loss: 0.0467 ---
+Test Accuracy after epoch 6: 87.34%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.001_200_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.0001_100_128_1', 'load_model_name': 'rnn_classifier_32_0.0001_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:40<00:00, 19.49it/s]
+--- Epoch [1] Average Training Loss: 0.6733 ---
+Test Accuracy after epoch 1: 57.26%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:34<00:00, 22.46it/s]
+--- Epoch [2] Average Training Loss: 0.6378 ---
+Test Accuracy after epoch 2: 66.49%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:37<00:00, 20.74it/s]
+--- Epoch [3] Average Training Loss: 0.5636 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 73.43%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:38<00:00, 20.52it/s]
+--- Epoch [4] Average Training Loss: 0.4998 ---
+Test Accuracy after epoch 4: 75.86%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:37<00:00, 20.87it/s]
+--- Epoch [5] Average Training Loss: 0.4690 ---
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 5: 76.40%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:37<00:00, 20.87it/s]
+--- Epoch [6] Average Training Loss: 0.4190 ---
+Test Accuracy after epoch 6: 74.99%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.0001_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.0001_100_128_2', 'load_model_name': 'rnn_classifier_32_0.0001_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:53<00:00, 14.74it/s]
+--- Epoch [1] Average Training Loss: 0.6299 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 73.05%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:52<00:00, 14.80it/s]
+--- Epoch [2] Average Training Loss: 0.4725 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 79.85%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:52<00:00, 14.77it/s]
+--- Epoch [3] Average Training Loss: 0.3920 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 79.66%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:53<00:00, 14.67it/s]
+--- Epoch [4] Average Training Loss: 0.3334 ---
+Epoch 5:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 4: 84.62%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:53<00:00, 14.64it/s]
+--- Epoch [5] Average Training Loss: 0.2934 ---
+Test Accuracy after epoch 5: 85.70%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:53<00:00, 14.71it/s]
+--- Epoch [6] Average Training Loss: 0.2645 ---
+Test Accuracy after epoch 6: 85.71%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.0001_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.0001_100_256_1', 'load_model_name': 'rnn_classifier_32_0.0001_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:41<00:00, 18.75it/s]
+--- Epoch [1] Average Training Loss: 0.6340 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 71.70%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:41<00:00, 18.96it/s]
+--- Epoch [2] Average Training Loss: 0.4917 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 77.86%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:40<00:00, 19.12it/s]
+--- Epoch [3] Average Training Loss: 0.4131 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 81.20%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:40<00:00, 19.15it/s]
+--- Epoch [4] Average Training Loss: 0.3638 ---
+Test Accuracy after epoch 4: 82.32%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:41<00:00, 18.80it/s]
+--- Epoch [5] Average Training Loss: 0.3164 ---
+Epoch 6:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 5: 80.79%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:41<00:00, 18.66it/s]
+--- Epoch [6] Average Training Loss: 0.2862 ---
+Test Accuracy after epoch 6: 84.21%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.0001_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.0001_100_256_2', 'load_model_name': 'rnn_classifier_32_0.0001_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [01:21<00:00,  9.62it/s]
+--- Epoch [1] Average Training Loss: 0.6079 ---
+Test Accuracy after epoch 1: 74.02%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [01:21<00:00,  9.65it/s]
+--- Epoch [2] Average Training Loss: 0.4589 ---
+Test Accuracy after epoch 2: 81.12%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [01:21<00:00,  9.62it/s]
+--- Epoch [3] Average Training Loss: 0.3723 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 82.38%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [01:21<00:00,  9.60it/s]
+--- Epoch [4] Average Training Loss: 0.3246 ---
+Test Accuracy after epoch 4: 82.83%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [01:21<00:00,  9.59it/s]
+--- Epoch [5] Average Training Loss: 0.3012 ---
+Test Accuracy after epoch 5: 84.75%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [01:21<00:00,  9.57it/s]
+--- Epoch [6] Average Training Loss: 0.2948 ---
+Test Accuracy after epoch 6: 84.25%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.0001_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.0001_200_128_1', 'load_model_name': 'rnn_classifier_32_0.0001_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:33<00:00, 23.35it/s]
+--- Epoch [1] Average Training Loss: 0.6565 ---
+Test Accuracy after epoch 1: 67.10%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:33<00:00, 23.24it/s]
+--- Epoch [2] Average Training Loss: 0.4708 ---
+Test Accuracy after epoch 2: 80.83%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:35<00:00, 21.95it/s]
+--- Epoch [3] Average Training Loss: 0.3655 ---
+Test Accuracy after epoch 3: 82.01%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:33<00:00, 23.14it/s]
+--- Epoch [4] Average Training Loss: 0.3057 ---
+Epoch 5:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 4: 84.87%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:33<00:00, 23.15it/s]
+--- Epoch [5] Average Training Loss: 0.2585 ---
+Test Accuracy after epoch 5: 85.48%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:33<00:00, 23.37it/s]
+--- Epoch [6] Average Training Loss: 0.2237 ---
+Test Accuracy after epoch 6: 86.13%
+/home/felix/Desktop/DL_A4/main.py:181: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  plt.figure(figsize=(20, 10))
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.0001_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.0001_200_128_2', 'load_model_name': 'rnn_classifier_32_0.0001_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:54<00:00, 14.38it/s]
+--- Epoch [1] Average Training Loss: 0.5933 ---
+Test Accuracy after epoch 1: 78.64%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:54<00:00, 14.48it/s]
+--- Epoch [2] Average Training Loss: 0.3887 ---
+Test Accuracy after epoch 2: 82.63%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:54<00:00, 14.37it/s]
+--- Epoch [3] Average Training Loss: 0.3122 ---
+Test Accuracy after epoch 3: 85.70%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:54<00:00, 14.33it/s]
+--- Epoch [4] Average Training Loss: 0.3022 ---
+Test Accuracy after epoch 4: 84.63%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:54<00:00, 14.33it/s]
+--- Epoch [5] Average Training Loss: 0.2831 ---
+Test Accuracy after epoch 5: 85.95%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:54<00:00, 14.38it/s]
+--- Epoch [6] Average Training Loss: 0.2205 ---
+Test Accuracy after epoch 6: 86.46%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.0001_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.0001_200_256_1', 'load_model_name': 'rnn_classifier_32_0.0001_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [00:43<00:00, 17.91it/s]
+--- Epoch [1] Average Training Loss: 0.6389 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 73.04%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [00:43<00:00, 17.87it/s]
+--- Epoch [2] Average Training Loss: 0.4608 ---
+Test Accuracy after epoch 2: 80.46%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [00:43<00:00, 17.88it/s]
+--- Epoch [3] Average Training Loss: 0.3699 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 82.67%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [00:43<00:00, 17.91it/s]
+--- Epoch [4] Average Training Loss: 0.3093 ---
+Test Accuracy after epoch 4: 83.61%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [00:43<00:00, 17.83it/s]
+--- Epoch [5] Average Training Loss: 0.2659 ---
+Test Accuracy after epoch 5: 85.04%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [00:43<00:00, 17.83it/s]
+--- Epoch [6] Average Training Loss: 0.2270 ---
+Test Accuracy after epoch 6: 84.34%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.0001_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 32, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_32_0.0001_200_256_2', 'load_model_name': 'rnn_classifier_32_0.0001_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/782 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 782/782 [01:25<00:00,  9.16it/s]
+--- Epoch [1] Average Training Loss: 0.5543 ---
+Epoch 2:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 1: 77.65%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 782/782 [01:25<00:00,  9.19it/s]
+--- Epoch [2] Average Training Loss: 0.4341 ---
+Epoch 3:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 2: 79.99%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 782/782 [01:25<00:00,  9.19it/s]
+--- Epoch [3] Average Training Loss: 0.3440 ---
+Epoch 4:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 3: 84.47%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 782/782 [01:25<00:00,  9.12it/s]
+--- Epoch [4] Average Training Loss: 0.2924 ---
+Epoch 5:   0%|          | 0/782 [00:00<?, ?it/s]Test Accuracy after epoch 4: 83.12%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 782/782 [01:25<00:00,  9.15it/s]
+--- Epoch [5] Average Training Loss: 0.2529 ---
+Test Accuracy after epoch 5: 86.09%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 782/782 [01:25<00:00,  9.12it/s]
+--- Epoch [6] Average Training Loss: 0.2095 ---
+Test Accuracy after epoch 6: 87.16%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_32_0.0001_200_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.01_100_128_1', 'load_model_name': 'rnn_classifier_64_0.01_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:20<00:00, 18.92it/s]
+--- Epoch [1] Average Training Loss: 0.4545 ---
+Test Accuracy after epoch 1: 85.91%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:20<00:00, 18.74it/s]
+--- Epoch [2] Average Training Loss: 0.2209 ---
+Test Accuracy after epoch 2: 87.85%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:20<00:00, 19.05it/s]
+--- Epoch [3] Average Training Loss: 0.1215 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 87.20%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:20<00:00, 18.88it/s]
+--- Epoch [4] Average Training Loss: 0.0722 ---
+Test Accuracy after epoch 4: 86.62%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:20<00:00, 18.79it/s]
+--- Epoch [5] Average Training Loss: 0.0531 ---
+Test Accuracy after epoch 5: 86.21%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:20<00:00, 18.83it/s]
+--- Epoch [6] Average Training Loss: 0.0392 ---
+Test Accuracy after epoch 6: 86.23%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.01_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.01_100_128_2', 'load_model_name': 'rnn_classifier_64_0.01_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:33<00:00, 11.81it/s]
+--- Epoch [1] Average Training Loss: 0.4816 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 86.21%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:32<00:00, 11.85it/s]
+--- Epoch [2] Average Training Loss: 0.2227 ---
+Test Accuracy after epoch 2: 88.31%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:33<00:00, 11.85it/s]
+--- Epoch [3] Average Training Loss: 0.1234 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 87.47%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:32<00:00, 11.90it/s]
+--- Epoch [4] Average Training Loss: 0.0747 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 87.36%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:33<00:00, 11.82it/s]
+--- Epoch [5] Average Training Loss: 0.0490 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 87.00%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:33<00:00, 11.84it/s]
+--- Epoch [6] Average Training Loss: 0.0394 ---
+Test Accuracy after epoch 6: 86.14%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.01_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.01_100_256_1', 'load_model_name': 'rnn_classifier_64_0.01_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:29<00:00, 13.38it/s]
+--- Epoch [1] Average Training Loss: 0.4706 ---
+Test Accuracy after epoch 1: 86.43%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:29<00:00, 13.37it/s]
+--- Epoch [2] Average Training Loss: 0.2331 ---
+Test Accuracy after epoch 2: 87.52%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:29<00:00, 13.31it/s]
+--- Epoch [3] Average Training Loss: 0.1436 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 87.48%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:29<00:00, 13.33it/s]
+--- Epoch [4] Average Training Loss: 0.0937 ---
+Test Accuracy after epoch 4: 87.00%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:29<00:00, 13.38it/s]
+--- Epoch [5] Average Training Loss: 0.0815 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 85.03%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:29<00:00, 13.35it/s]
+--- Epoch [6] Average Training Loss: 0.0614 ---
+Test Accuracy after epoch 6: 86.11%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.01_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.01_100_256_2', 'load_model_name': 'rnn_classifier_64_0.01_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [01:01<00:00,  6.31it/s]
+--- Epoch [1] Average Training Loss: 0.4512 ---
+Test Accuracy after epoch 1: 87.62%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [01:02<00:00,  6.30it/s]
+--- Epoch [2] Average Training Loss: 0.2099 ---
+Test Accuracy after epoch 2: 84.76%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [01:02<00:00,  6.30it/s]
+--- Epoch [3] Average Training Loss: 0.1380 ---
+Test Accuracy after epoch 3: 88.36%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [01:02<00:00,  6.29it/s]
+--- Epoch [4] Average Training Loss: 0.1202 ---
+Test Accuracy after epoch 4: 85.90%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [01:02<00:00,  6.29it/s]
+--- Epoch [5] Average Training Loss: nan ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 50.00%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [01:00<00:00,  6.42it/s]
+--- Epoch [6] Average Training Loss: nan ---
+Test Accuracy after epoch 6: 50.00%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.01_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.01_200_128_1', 'load_model_name': 'rnn_classifier_64_0.01_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:21<00:00, 18.29it/s]
+--- Epoch [1] Average Training Loss: 0.5172 ---
+Test Accuracy after epoch 1: 79.77%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:21<00:00, 18.21it/s]
+--- Epoch [2] Average Training Loss: 0.3037 ---
+Test Accuracy after epoch 2: 84.38%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:21<00:00, 18.22it/s]
+--- Epoch [3] Average Training Loss: 0.1752 ---
+Test Accuracy after epoch 3: 83.24%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:21<00:00, 18.06it/s]
+--- Epoch [4] Average Training Loss: 0.1086 ---
+Test Accuracy after epoch 4: 83.51%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:21<00:00, 18.17it/s]
+--- Epoch [5] Average Training Loss: 0.0622 ---
+Test Accuracy after epoch 5: 84.81%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:21<00:00, 18.14it/s]
+--- Epoch [6] Average Training Loss: 0.0413 ---
+Test Accuracy after epoch 6: 84.09%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.01_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.01_200_128_2', 'load_model_name': 'rnn_classifier_64_0.01_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:33<00:00, 11.51it/s]
+--- Epoch [1] Average Training Loss: 0.4405 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 84.11%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:34<00:00, 11.50it/s]
+--- Epoch [2] Average Training Loss: 0.2122 ---
+Epoch 3:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 2: 88.22%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:34<00:00, 11.50it/s]
+--- Epoch [3] Average Training Loss: 0.1313 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 86.86%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:33<00:00, 11.51it/s]
+--- Epoch [4] Average Training Loss: 0.0926 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 87.44%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:34<00:00, 11.40it/s]
+--- Epoch [5] Average Training Loss: 0.0673 ---
+Test Accuracy after epoch 5: 85.44%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:34<00:00, 11.50it/s]
+--- Epoch [6] Average Training Loss: 0.0572 ---
+Test Accuracy after epoch 6: 86.57%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.01_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.01_200_256_1', 'load_model_name': 'rnn_classifier_64_0.01_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:32<00:00, 11.88it/s]
+--- Epoch [1] Average Training Loss: 0.4552 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 85.09%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:32<00:00, 11.89it/s]
+--- Epoch [2] Average Training Loss: 0.2373 ---
+Epoch 3:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 2: 84.50%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:32<00:00, 11.88it/s]
+--- Epoch [3] Average Training Loss: 0.1776 ---
+Test Accuracy after epoch 3: 82.61%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:33<00:00, 11.85it/s]
+--- Epoch [4] Average Training Loss: 0.1602 ---
+Test Accuracy after epoch 4: 80.84%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:33<00:00, 11.84it/s]
+--- Epoch [5] Average Training Loss: 0.1624 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 82.45%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:32<00:00, 11.89it/s]
+--- Epoch [6] Average Training Loss: nan ---
+Test Accuracy after epoch 6: 50.00%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.01_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.01_200_256_2', 'load_model_name': 'rnn_classifier_64_0.01_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [01:05<00:00,  6.01it/s]
+--- Epoch [1] Average Training Loss: 0.6197 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 74.85%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [01:05<00:00,  6.01it/s]
+--- Epoch [2] Average Training Loss: 0.3572 ---
+Test Accuracy after epoch 2: 78.42%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [01:05<00:00,  6.00it/s]
+--- Epoch [3] Average Training Loss: 0.1660 ---
+Test Accuracy after epoch 3: 79.76%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [01:05<00:00,  6.01it/s]
+--- Epoch [4] Average Training Loss: 0.0780 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 79.86%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [01:05<00:00,  6.01it/s]
+--- Epoch [5] Average Training Loss: 0.0380 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 79.60%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [01:05<00:00,  6.00it/s]
+--- Epoch [6] Average Training Loss: 0.0225 ---
+Test Accuracy after epoch 6: 77.90%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.01_200_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_100_128_1', 'load_model_name': 'rnn_classifier_64_0.001_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:20<00:00, 18.92it/s]
+--- Epoch [1] Average Training Loss: 0.5800 ---
+Test Accuracy after epoch 1: 70.73%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:20<00:00, 19.02it/s]
+--- Epoch [2] Average Training Loss: 0.4275 ---
+Test Accuracy after epoch 2: 79.82%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:20<00:00, 18.92it/s]
+--- Epoch [3] Average Training Loss: 0.2998 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 85.26%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:20<00:00, 18.97it/s]
+--- Epoch [4] Average Training Loss: 0.2135 ---
+Test Accuracy after epoch 4: 84.11%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:20<00:00, 18.98it/s]
+--- Epoch [5] Average Training Loss: 0.1676 ---
+Test Accuracy after epoch 5: 85.11%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:20<00:00, 18.85it/s]
+--- Epoch [6] Average Training Loss: 0.1145 ---
+Test Accuracy after epoch 6: 85.60%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.001_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_100_128_2', 'load_model_name': 'rnn_classifier_64_0.001_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:32<00:00, 11.91it/s]
+--- Epoch [1] Average Training Loss: 0.5849 ---
+Test Accuracy after epoch 1: 72.62%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:32<00:00, 11.93it/s]
+--- Epoch [2] Average Training Loss: 0.4528 ---
+Epoch 3:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 2: 80.07%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:32<00:00, 11.85it/s]
+--- Epoch [3] Average Training Loss: 0.3395 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 84.51%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:32<00:00, 11.86it/s]
+--- Epoch [4] Average Training Loss: 0.2819 ---
+Test Accuracy after epoch 4: 85.58%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:32<00:00, 11.87it/s]
+--- Epoch [5] Average Training Loss: 0.2203 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 87.03%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:32<00:00, 11.86it/s]
+--- Epoch [6] Average Training Loss: 0.1610 ---
+Test Accuracy after epoch 6: 86.24%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.001_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_100_256_1', 'load_model_name': 'rnn_classifier_64_0.001_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:29<00:00, 13.38it/s]
+--- Epoch [1] Average Training Loss: 0.6028 ---
+Test Accuracy after epoch 1: 76.50%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:29<00:00, 13.39it/s]
+--- Epoch [2] Average Training Loss: 0.4795 ---
+Test Accuracy after epoch 2: 77.59%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:29<00:00, 13.36it/s]
+--- Epoch [3] Average Training Loss: 0.3644 ---
+Test Accuracy after epoch 3: 76.88%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:29<00:00, 13.37it/s]
+--- Epoch [4] Average Training Loss: 0.2529 ---
+Test Accuracy after epoch 4: 85.64%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:29<00:00, 13.33it/s]
+--- Epoch [5] Average Training Loss: 0.1726 ---
+Test Accuracy after epoch 5: 85.66%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:29<00:00, 13.38it/s]
+--- Epoch [6] Average Training Loss: 0.1069 ---
+Test Accuracy after epoch 6: 86.81%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.001_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_100_256_2', 'load_model_name': 'rnn_classifier_64_0.001_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [01:01<00:00,  6.32it/s]
+--- Epoch [1] Average Training Loss: 0.6004 ---
+Test Accuracy after epoch 1: 72.88%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [01:02<00:00,  6.29it/s]
+--- Epoch [2] Average Training Loss: 0.4218 ---
+Test Accuracy after epoch 2: 77.18%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [01:02<00:00,  6.30it/s]
+--- Epoch [3] Average Training Loss: 0.2848 ---
+Test Accuracy after epoch 3: 86.85%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [01:02<00:00,  6.30it/s]
+--- Epoch [4] Average Training Loss: 0.2081 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 88.01%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [01:02<00:00,  6.28it/s]
+--- Epoch [5] Average Training Loss: 0.1579 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.85%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [01:02<00:00,  6.29it/s]
+--- Epoch [6] Average Training Loss: 0.1184 ---
+Test Accuracy after epoch 6: 87.34%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.001_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_200_128_1', 'load_model_name': 'rnn_classifier_64_0.001_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:21<00:00, 18.25it/s]
+--- Epoch [1] Average Training Loss: 0.5443 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 52.82%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:21<00:00, 18.13it/s]
+--- Epoch [2] Average Training Loss: 0.4640 ---
+Epoch 3:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 2: 72.55%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:21<00:00, 18.22it/s]
+--- Epoch [3] Average Training Loss: 0.3219 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 84.08%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:21<00:00, 18.15it/s]
+--- Epoch [4] Average Training Loss: 0.1926 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 86.55%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:21<00:00, 17.97it/s]
+--- Epoch [5] Average Training Loss: 0.1212 ---
+Test Accuracy after epoch 5: 85.94%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:21<00:00, 18.12it/s]
+--- Epoch [6] Average Training Loss: 0.0790 ---
+Test Accuracy after epoch 6: 84.68%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.001_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_200_128_2', 'load_model_name': 'rnn_classifier_64_0.001_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:33<00:00, 11.54it/s]
+--- Epoch [1] Average Training Loss: 0.5366 ---
+Test Accuracy after epoch 1: 74.27%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:33<00:00, 11.51it/s]
+--- Epoch [2] Average Training Loss: 0.4534 ---
+Test Accuracy after epoch 2: 81.73%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:34<00:00, 11.42it/s]
+--- Epoch [3] Average Training Loss: 0.3205 ---
+Test Accuracy after epoch 3: 82.27%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:34<00:00, 11.47it/s]
+--- Epoch [4] Average Training Loss: 0.2221 ---
+Test Accuracy after epoch 4: 85.90%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:34<00:00, 11.46it/s]
+--- Epoch [5] Average Training Loss: 0.1518 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.88%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:34<00:00, 11.46it/s]
+--- Epoch [6] Average Training Loss: 0.0973 ---
+Test Accuracy after epoch 6: 86.97%
+
+Training complete. Best Test Accuracy: 88.48%
+Saved final model to models/rnn_classifier_64_0.001_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_200_256_1', 'load_model_name': 'rnn_classifier_64_0.001_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:32<00:00, 11.89it/s]
+--- Epoch [1] Average Training Loss: 0.5699 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 71.66%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:32<00:00, 11.89it/s]
+--- Epoch [2] Average Training Loss: 0.3793 ---
+Test Accuracy after epoch 2: 86.44%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:32<00:00, 11.88it/s]
+--- Epoch [3] Average Training Loss: 0.2019 ---
+Test Accuracy after epoch 3: 87.56%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:32<00:00, 11.90it/s]
+--- Epoch [4] Average Training Loss: 0.1111 ---
+Test Accuracy after epoch 4: 88.53%
+All files in 'best_model' have been deleted.
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:32<00:00, 11.90it/s]
+--- Epoch [5] Average Training Loss: 0.0502 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 88.05%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:32<00:00, 11.85it/s]
+--- Epoch [6] Average Training Loss: 0.0206 ---
+Test Accuracy after epoch 6: 87.79%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.001_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_200_256_2', 'load_model_name': 'rnn_classifier_64_0.001_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [01:04<00:00,  6.02it/s]
+--- Epoch [1] Average Training Loss: 0.5861 ---
+Test Accuracy after epoch 1: 80.97%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [01:05<00:00,  6.00it/s]
+--- Epoch [2] Average Training Loss: 0.3500 ---
+Test Accuracy after epoch 2: 85.16%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [01:05<00:00,  6.01it/s]
+--- Epoch [3] Average Training Loss: 0.2427 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 81.34%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [01:04<00:00,  6.02it/s]
+--- Epoch [4] Average Training Loss: 0.1726 ---
+Test Accuracy after epoch 4: 87.99%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [01:05<00:00,  6.01it/s]
+--- Epoch [5] Average Training Loss: 0.1174 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 87.76%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [01:04<00:00,  6.02it/s]
+--- Epoch [6] Average Training Loss: 0.0711 ---
+Test Accuracy after epoch 6: 86.79%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.001_200_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.0001_100_128_1', 'load_model_name': 'rnn_classifier_64_0.0001_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:20<00:00, 18.89it/s]
+--- Epoch [1] Average Training Loss: 0.6834 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 60.46%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:20<00:00, 18.95it/s]
+--- Epoch [2] Average Training Loss: 0.5815 ---
+Test Accuracy after epoch 2: 73.96%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:20<00:00, 18.96it/s]
+--- Epoch [3] Average Training Loss: 0.4756 ---
+Test Accuracy after epoch 3: 78.14%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:20<00:00, 18.89it/s]
+--- Epoch [4] Average Training Loss: 0.4188 ---
+Test Accuracy after epoch 4: 80.56%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:20<00:00, 18.82it/s]
+--- Epoch [5] Average Training Loss: 0.3768 ---
+Test Accuracy after epoch 5: 81.91%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:20<00:00, 18.96it/s]
+--- Epoch [6] Average Training Loss: 0.3384 ---
+Test Accuracy after epoch 6: 83.27%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.0001_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.0001_100_128_2', 'load_model_name': 'rnn_classifier_64_0.0001_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:32<00:00, 11.91it/s]
+--- Epoch [1] Average Training Loss: 0.6455 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 67.90%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:33<00:00, 11.78it/s]
+--- Epoch [2] Average Training Loss: 0.4942 ---
+Test Accuracy after epoch 2: 77.57%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:32<00:00, 11.87it/s]
+--- Epoch [3] Average Training Loss: 0.4059 ---
+Test Accuracy after epoch 3: 81.45%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:33<00:00, 11.73it/s]
+--- Epoch [4] Average Training Loss: 0.3471 ---
+Test Accuracy after epoch 4: 83.40%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:32<00:00, 11.87it/s]
+--- Epoch [5] Average Training Loss: 0.3043 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 83.65%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:33<00:00, 11.84it/s]
+--- Epoch [6] Average Training Loss: 0.2770 ---
+Test Accuracy after epoch 6: 82.75%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.0001_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.0001_100_256_1', 'load_model_name': 'rnn_classifier_64_0.0001_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:29<00:00, 13.37it/s]
+--- Epoch [1] Average Training Loss: 0.6555 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 69.93%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:29<00:00, 13.39it/s]
+--- Epoch [2] Average Training Loss: 0.5206 ---
+Epoch 3:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 2: 76.36%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:29<00:00, 13.40it/s]
+--- Epoch [3] Average Training Loss: 0.4375 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 78.46%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:29<00:00, 13.38it/s]
+--- Epoch [4] Average Training Loss: 0.3870 ---
+Test Accuracy after epoch 4: 81.40%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:29<00:00, 13.38it/s]
+--- Epoch [5] Average Training Loss: 0.3475 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 82.57%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:29<00:00, 13.39it/s]
+--- Epoch [6] Average Training Loss: 0.3155 ---
+Test Accuracy after epoch 6: 84.02%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.0001_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.0001_100_256_2', 'load_model_name': 'rnn_classifier_64_0.0001_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [01:01<00:00,  6.32it/s]
+--- Epoch [1] Average Training Loss: 0.6212 ---
+Test Accuracy after epoch 1: 72.43%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [01:02<00:00,  6.29it/s]
+--- Epoch [2] Average Training Loss: 0.5051 ---
+Test Accuracy after epoch 2: 77.45%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [01:02<00:00,  6.30it/s]
+--- Epoch [3] Average Training Loss: 0.4152 ---
+Test Accuracy after epoch 3: 80.63%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [01:02<00:00,  6.28it/s]
+--- Epoch [4] Average Training Loss: 0.3577 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 83.88%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [01:01<00:00,  6.31it/s]
+--- Epoch [5] Average Training Loss: 0.3097 ---
+Test Accuracy after epoch 5: 85.41%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [01:01<00:00,  6.31it/s]
+--- Epoch [6] Average Training Loss: 0.2720 ---
+Test Accuracy after epoch 6: 86.16%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.0001_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.0001_200_128_1', 'load_model_name': 'rnn_classifier_64_0.0001_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/391 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:21<00:00, 18.19it/s]
+--- Epoch [1] Average Training Loss: 0.6758 ---
+Test Accuracy after epoch 1: 63.98%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:21<00:00, 17.81it/s]
+--- Epoch [2] Average Training Loss: 0.5337 ---
+Test Accuracy after epoch 2: 76.35%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:21<00:00, 18.18it/s]
+--- Epoch [3] Average Training Loss: 0.4098 ---
+Test Accuracy after epoch 3: 81.48%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:21<00:00, 17.94it/s]
+--- Epoch [4] Average Training Loss: 0.3504 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 83.18%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:21<00:00, 18.07it/s]
+--- Epoch [5] Average Training Loss: 0.3073 ---
+Test Accuracy after epoch 5: 83.88%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:21<00:00, 18.11it/s]
+--- Epoch [6] Average Training Loss: 0.2696 ---
+Test Accuracy after epoch 6: 85.11%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.0001_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.0001_200_128_2', 'load_model_name': 'rnn_classifier_64_0.0001_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:34<00:00, 11.45it/s]
+--- Epoch [1] Average Training Loss: 0.6226 ---
+Test Accuracy after epoch 1: 76.54%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:34<00:00, 11.48it/s]
+--- Epoch [2] Average Training Loss: 0.4355 ---
+Test Accuracy after epoch 2: 81.79%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:34<00:00, 11.34it/s]
+--- Epoch [3] Average Training Loss: 0.3502 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 84.36%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:33<00:00, 11.54it/s]
+--- Epoch [4] Average Training Loss: 0.3004 ---
+Test Accuracy after epoch 4: 83.42%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:34<00:00, 11.45it/s]
+--- Epoch [5] Average Training Loss: 0.2603 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 85.68%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:34<00:00, 11.49it/s]
+--- Epoch [6] Average Training Loss: 0.2433 ---
+Test Accuracy after epoch 6: 85.71%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.0001_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.0001_200_256_1', 'load_model_name': 'rnn_classifier_64_0.0001_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [00:32<00:00, 11.95it/s]
+--- Epoch [1] Average Training Loss: 0.6375 ---
+Epoch 2:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 1: 73.17%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [00:32<00:00, 11.86it/s]
+--- Epoch [2] Average Training Loss: 0.4614 ---
+Epoch 3:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 2: 78.28%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [00:32<00:00, 11.90it/s]
+--- Epoch [3] Average Training Loss: 0.3806 ---
+Test Accuracy after epoch 3: 82.49%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [00:32<00:00, 11.88it/s]
+--- Epoch [4] Average Training Loss: 0.3243 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 84.32%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [00:33<00:00, 11.82it/s]
+--- Epoch [5] Average Training Loss: 0.2797 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 85.27%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [00:33<00:00, 11.82it/s]
+--- Epoch [6] Average Training Loss: 0.2452 ---
+Test Accuracy after epoch 6: 84.66%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.0001_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 64, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.0001_200_256_2', 'load_model_name': 'rnn_classifier_64_0.0001_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 391/391 [01:05<00:00,  6.01it/s]
+--- Epoch [1] Average Training Loss: 0.5909 ---
+Test Accuracy after epoch 1: 78.16%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 391/391 [01:05<00:00,  6.00it/s]
+--- Epoch [2] Average Training Loss: 0.4047 ---
+Test Accuracy after epoch 2: 81.46%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 391/391 [01:05<00:00,  6.01it/s]
+--- Epoch [3] Average Training Loss: 0.3450 ---
+Epoch 4:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 3: 84.89%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 391/391 [01:04<00:00,  6.02it/s]
+--- Epoch [4] Average Training Loss: 0.2798 ---
+Epoch 5:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 4: 85.88%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 391/391 [01:04<00:00,  6.02it/s]
+--- Epoch [5] Average Training Loss: 0.2388 ---
+Epoch 6:   0%|          | 0/391 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.74%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 391/391 [01:04<00:00,  6.03it/s]
+--- Epoch [6] Average Training Loss: 0.2142 ---
+Test Accuracy after epoch 6: 86.86%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_64_0.0001_200_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.01_100_128_1', 'load_model_name': 'rnn_classifier_128_0.01_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:13<00:00, 14.24it/s]
+--- Epoch [1] Average Training Loss: 0.5262 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 85.84%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:13<00:00, 14.37it/s]
+--- Epoch [2] Average Training Loss: 0.2238 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 87.43%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:13<00:00, 14.43it/s]
+--- Epoch [3] Average Training Loss: 0.0928 ---
+Test Accuracy after epoch 3: 86.42%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:13<00:00, 14.38it/s]
+--- Epoch [4] Average Training Loss: 0.0393 ---
+Test Accuracy after epoch 4: 85.93%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:13<00:00, 14.32it/s]
+--- Epoch [5] Average Training Loss: 0.0200 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.45%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:13<00:00, 14.29it/s]
+--- Epoch [6] Average Training Loss: 0.0120 ---
+Test Accuracy after epoch 6: 85.89%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.01_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.01_100_128_2', 'load_model_name': 'rnn_classifier_128_0.01_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:21<00:00,  8.95it/s]
+--- Epoch [1] Average Training Loss: 0.5143 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 84.46%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:21<00:00,  8.98it/s]
+--- Epoch [2] Average Training Loss: 0.2604 ---
+Test Accuracy after epoch 2: 86.80%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:21<00:00,  8.96it/s]
+--- Epoch [3] Average Training Loss: 0.1668 ---
+Test Accuracy after epoch 3: 86.67%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:21<00:00,  9.00it/s]
+--- Epoch [4] Average Training Loss: 0.1018 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 86.59%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:21<00:00,  8.96it/s]
+--- Epoch [5] Average Training Loss: 0.0650 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.70%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:21<00:00,  8.97it/s]
+--- Epoch [6] Average Training Loss: 0.0544 ---
+Test Accuracy after epoch 6: 85.79%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.01_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.01_100_256_1', 'load_model_name': 'rnn_classifier_128_0.01_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:22<00:00,  8.53it/s]
+--- Epoch [1] Average Training Loss: 0.5081 ---
+Test Accuracy after epoch 1: 84.98%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:22<00:00,  8.57it/s]
+--- Epoch [2] Average Training Loss: 0.2204 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 87.91%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:22<00:00,  8.55it/s]
+--- Epoch [3] Average Training Loss: 0.1190 ---
+Test Accuracy after epoch 3: 86.47%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:22<00:00,  8.53it/s]
+--- Epoch [4] Average Training Loss: 0.0614 ---
+Test Accuracy after epoch 4: 86.51%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:23<00:00,  8.50it/s]
+--- Epoch [5] Average Training Loss: 0.0355 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.08%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:23<00:00,  8.51it/s]
+--- Epoch [6] Average Training Loss: 0.0232 ---
+Test Accuracy after epoch 6: 86.50%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.01_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.01, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.01_100_256_2', 'load_model_name': 'rnn_classifier_128_0.01_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [1] Average Training Loss: 0.4914 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 85.34%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:50<00:00,  3.88it/s]
+--- Epoch [2] Average Training Loss: 0.2155 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 86.65%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [3] Average Training Loss: 0.1035 ---
+Test Accuracy after epoch 3: 87.73%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [4] Average Training Loss: 0.0452 ---
+Test Accuracy after epoch 4: 88.20%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:50<00:00,  3.88it/s]
+--- Epoch [5] Average Training Loss: 0.0270 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.60%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:50<00:00,  3.90it/s]
+--- Epoch [6] Average Training Loss: 0.0255 ---
+Test Accuracy after epoch 6: 87.29%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.01_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.01_200_128_1', 'load_model_name': 'rnn_classifier_128_0.01_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:15<00:00, 12.83it/s]
+--- Epoch [1] Average Training Loss: 0.4638 ---
+Test Accuracy after epoch 1: 86.70%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:15<00:00, 12.73it/s]
+--- Epoch [2] Average Training Loss: 0.2068 ---
+Test Accuracy after epoch 2: 86.52%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:15<00:00, 12.77it/s]
+--- Epoch [3] Average Training Loss: 0.1007 ---
+Test Accuracy after epoch 3: 86.90%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:15<00:00, 12.79it/s]
+--- Epoch [4] Average Training Loss: 0.0444 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 86.26%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:15<00:00, 12.71it/s]
+--- Epoch [5] Average Training Loss: 0.0255 ---
+Test Accuracy after epoch 5: 85.91%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:15<00:00, 12.94it/s]
+--- Epoch [6] Average Training Loss: 0.0167 ---
+Test Accuracy after epoch 6: 85.72%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.01_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.01_200_128_2', 'load_model_name': 'rnn_classifier_128_0.01_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:23<00:00,  8.33it/s]
+--- Epoch [1] Average Training Loss: 0.4831 ---
+Test Accuracy after epoch 1: 85.20%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:23<00:00,  8.38it/s]
+--- Epoch [2] Average Training Loss: 0.2132 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 87.92%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:23<00:00,  8.35it/s]
+--- Epoch [3] Average Training Loss: 0.1049 ---
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 3: 88.26%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:23<00:00,  8.37it/s]
+--- Epoch [4] Average Training Loss: 0.0491 ---
+Test Accuracy after epoch 4: 87.52%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:23<00:00,  8.35it/s]
+--- Epoch [5] Average Training Loss: 0.0367 ---
+Test Accuracy after epoch 5: 87.54%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:23<00:00,  8.37it/s]
+--- Epoch [6] Average Training Loss: 0.0209 ---
+Test Accuracy after epoch 6: 86.96%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.01_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.01_200_256_1', 'load_model_name': 'rnn_classifier_128_0.01_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:26<00:00,  7.53it/s]
+--- Epoch [1] Average Training Loss: 0.5323 ---
+Test Accuracy after epoch 1: 81.68%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:26<00:00,  7.50it/s]
+--- Epoch [2] Average Training Loss: 0.2510 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 85.37%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:26<00:00,  7.50it/s]
+--- Epoch [3] Average Training Loss: 0.1399 ---
+Test Accuracy after epoch 3: 84.58%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:26<00:00,  7.50it/s]
+--- Epoch [4] Average Training Loss: 0.0631 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 84.90%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:26<00:00,  7.50it/s]
+--- Epoch [5] Average Training Loss: 0.0338 ---
+Test Accuracy after epoch 5: 85.41%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:26<00:00,  7.50it/s]
+--- Epoch [6] Average Training Loss: 0.0185 ---
+Test Accuracy after epoch 6: 85.50%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.01_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.01, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.01_200_256_2', 'load_model_name': 'rnn_classifier_128_0.01_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:53<00:00,  3.64it/s]
+--- Epoch [1] Average Training Loss: 0.4762 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 87.58%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:53<00:00,  3.64it/s]
+--- Epoch [2] Average Training Loss: 0.2228 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 87.60%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:54<00:00,  3.63it/s]
+--- Epoch [3] Average Training Loss: 0.1495 ---
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 3: 83.62%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:54<00:00,  3.62it/s]
+--- Epoch [4] Average Training Loss: 0.0891 ---
+Test Accuracy after epoch 4: 87.86%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:53<00:00,  3.63it/s]
+--- Epoch [5] Average Training Loss: 0.0539 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 87.06%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:53<00:00,  3.64it/s]
+--- Epoch [6] Average Training Loss: 0.0414 ---
+Test Accuracy after epoch 6: 87.01%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.01_200_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.001_100_128_1', 'load_model_name': 'rnn_classifier_128_0.001_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:13<00:00, 14.34it/s]
+--- Epoch [1] Average Training Loss: 0.5597 ---
+Test Accuracy after epoch 1: 76.49%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:13<00:00, 14.35it/s]
+--- Epoch [2] Average Training Loss: 0.4110 ---
+Test Accuracy after epoch 2: 80.93%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:13<00:00, 14.35it/s]
+--- Epoch [3] Average Training Loss: 0.3367 ---
+Test Accuracy after epoch 3: 69.48%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:13<00:00, 14.35it/s]
+--- Epoch [4] Average Training Loss: 0.3359 ---
+Test Accuracy after epoch 4: 83.98%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:13<00:00, 14.31it/s]
+--- Epoch [5] Average Training Loss: 0.2354 ---
+Test Accuracy after epoch 5: 80.39%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:13<00:00, 14.31it/s]
+--- Epoch [6] Average Training Loss: 0.2208 ---
+Test Accuracy after epoch 6: 85.59%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.001_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.001_100_128_2', 'load_model_name': 'rnn_classifier_128_0.001_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:21<00:00,  8.94it/s]
+--- Epoch [1] Average Training Loss: 0.5961 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 74.98%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:21<00:00,  8.96it/s]
+--- Epoch [2] Average Training Loss: 0.5016 ---
+Test Accuracy after epoch 2: 76.93%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:21<00:00,  8.95it/s]
+--- Epoch [3] Average Training Loss: 0.4190 ---
+Test Accuracy after epoch 3: 81.26%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:21<00:00,  8.95it/s]
+--- Epoch [4] Average Training Loss: 0.3365 ---
+Test Accuracy after epoch 4: 83.80%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:21<00:00,  8.94it/s]
+--- Epoch [5] Average Training Loss: 0.2444 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.71%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:21<00:00,  8.99it/s]
+--- Epoch [6] Average Training Loss: 0.1985 ---
+Test Accuracy after epoch 6: 87.24%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.001_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.001_100_256_1', 'load_model_name': 'rnn_classifier_128_0.001_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:22<00:00,  8.54it/s]
+--- Epoch [1] Average Training Loss: 0.5974 ---
+Test Accuracy after epoch 1: 67.70%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:22<00:00,  8.55it/s]
+--- Epoch [2] Average Training Loss: 0.5089 ---
+Test Accuracy after epoch 2: 76.30%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:22<00:00,  8.55it/s]
+--- Epoch [3] Average Training Loss: 0.3802 ---
+Test Accuracy after epoch 3: 80.49%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:22<00:00,  8.57it/s]
+--- Epoch [4] Average Training Loss: 0.2729 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 85.40%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:22<00:00,  8.57it/s]
+--- Epoch [5] Average Training Loss: 0.2236 ---
+Test Accuracy after epoch 5: 82.10%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:22<00:00,  8.57it/s]
+--- Epoch [6] Average Training Loss: 0.1657 ---
+Test Accuracy after epoch 6: 85.41%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.001_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.001_100_256_2', 'load_model_name': 'rnn_classifier_128_0.001_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:50<00:00,  3.90it/s]
+--- Epoch [1] Average Training Loss: 0.6101 ---
+Test Accuracy after epoch 1: 69.40%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:50<00:00,  3.88it/s]
+--- Epoch [2] Average Training Loss: 0.4927 ---
+Test Accuracy after epoch 2: 81.16%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [3] Average Training Loss: 0.3555 ---
+Test Accuracy after epoch 3: 80.89%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [4] Average Training Loss: 0.2721 ---
+Test Accuracy after epoch 4: 84.89%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [5] Average Training Loss: 0.2350 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.53%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [6] Average Training Loss: 0.1727 ---
+Test Accuracy after epoch 6: 87.85%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.001_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.001_200_128_1', 'load_model_name': 'rnn_classifier_128_0.001_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:15<00:00, 12.58it/s]
+--- Epoch [1] Average Training Loss: 0.5628 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 76.90%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:15<00:00, 12.81it/s]
+--- Epoch [2] Average Training Loss: 0.3492 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 82.82%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:15<00:00, 12.98it/s]
+--- Epoch [3] Average Training Loss: 0.3588 ---
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 3: 77.12%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:15<00:00, 12.43it/s]
+--- Epoch [4] Average Training Loss: 0.2442 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 85.17%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:15<00:00, 12.78it/s]
+--- Epoch [5] Average Training Loss: 0.1374 ---
+Test Accuracy after epoch 5: 86.06%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:15<00:00, 12.70it/s]
+--- Epoch [6] Average Training Loss: 0.0807 ---
+Test Accuracy after epoch 6: 85.93%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.001_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.001_200_128_2', 'load_model_name': 'rnn_classifier_128_0.001_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:23<00:00,  8.38it/s]
+--- Epoch [1] Average Training Loss: 0.5549 ---
+Test Accuracy after epoch 1: 77.28%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:23<00:00,  8.36it/s]
+--- Epoch [2] Average Training Loss: 0.4114 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 83.51%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:23<00:00,  8.37it/s]
+--- Epoch [3] Average Training Loss: 0.3284 ---
+Test Accuracy after epoch 3: 81.97%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:23<00:00,  8.37it/s]
+--- Epoch [4] Average Training Loss: 0.2420 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 86.19%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:23<00:00,  8.37it/s]
+--- Epoch [5] Average Training Loss: 0.2063 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 83.71%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:23<00:00,  8.40it/s]
+--- Epoch [6] Average Training Loss: 0.1587 ---
+Test Accuracy after epoch 6: 80.54%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.001_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.001_200_256_1', 'load_model_name': 'rnn_classifier_128_0.001_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:26<00:00,  7.53it/s]
+--- Epoch [1] Average Training Loss: 0.5784 ---
+Test Accuracy after epoch 1: 73.50%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:26<00:00,  7.52it/s]
+--- Epoch [2] Average Training Loss: 0.4319 ---
+Test Accuracy after epoch 2: 76.96%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:26<00:00,  7.53it/s]
+--- Epoch [3] Average Training Loss: 0.4250 ---
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 3: 75.72%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:26<00:00,  7.53it/s]
+--- Epoch [4] Average Training Loss: 0.2909 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 83.88%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:26<00:00,  7.48it/s]
+--- Epoch [5] Average Training Loss: 0.2042 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 85.52%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:26<00:00,  7.49it/s]
+--- Epoch [6] Average Training Loss: 0.1401 ---
+Test Accuracy after epoch 6: 85.57%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.001_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.001_200_256_2', 'load_model_name': 'rnn_classifier_128_0.001_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:53<00:00,  3.63it/s]
+--- Epoch [1] Average Training Loss: 0.5575 ---
+Test Accuracy after epoch 1: 77.66%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:53<00:00,  3.63it/s]
+--- Epoch [2] Average Training Loss: 0.4463 ---
+Test Accuracy after epoch 2: 80.50%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:53<00:00,  3.64it/s]
+--- Epoch [3] Average Training Loss: 0.3396 ---
+Test Accuracy after epoch 3: 83.82%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:53<00:00,  3.63it/s]
+--- Epoch [4] Average Training Loss: 0.2568 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 85.13%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:54<00:00,  3.62it/s]
+--- Epoch [5] Average Training Loss: 0.1865 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.72%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:54<00:00,  3.62it/s]
+--- Epoch [6] Average Training Loss: 0.1474 ---
+Test Accuracy after epoch 6: 86.16%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.001_200_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.0001_100_128_1', 'load_model_name': 'rnn_classifier_128_0.0001_100_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:13<00:00, 14.38it/s]
+--- Epoch [1] Average Training Loss: 0.6868 ---
+Test Accuracy after epoch 1: 57.59%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:13<00:00, 14.31it/s]
+--- Epoch [2] Average Training Loss: 0.6397 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 70.36%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:13<00:00, 14.35it/s]
+--- Epoch [3] Average Training Loss: 0.5309 ---
+Test Accuracy after epoch 3: 74.87%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:13<00:00, 14.26it/s]
+--- Epoch [4] Average Training Loss: 0.4667 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 77.48%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:13<00:00, 14.29it/s]
+--- Epoch [5] Average Training Loss: 0.4210 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 79.16%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:13<00:00, 14.29it/s]
+--- Epoch [6] Average Training Loss: 0.3876 ---
+Test Accuracy after epoch 6: 78.85%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.0001_100_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.0001_100_128_2', 'load_model_name': 'rnn_classifier_128_0.0001_100_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:21<00:00,  8.99it/s]
+--- Epoch [1] Average Training Loss: 0.6768 ---
+Test Accuracy after epoch 1: 65.59%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:21<00:00,  8.97it/s]
+--- Epoch [2] Average Training Loss: 0.5371 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 75.19%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:21<00:00,  9.00it/s]
+--- Epoch [3] Average Training Loss: 0.4473 ---
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 3: 77.14%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:21<00:00,  8.99it/s]
+--- Epoch [4] Average Training Loss: 0.3892 ---
+Test Accuracy after epoch 4: 82.17%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:21<00:00,  8.97it/s]
+--- Epoch [5] Average Training Loss: 0.3483 ---
+Test Accuracy after epoch 5: 80.87%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:21<00:00,  9.03it/s]
+--- Epoch [6] Average Training Loss: 0.3164 ---
+Test Accuracy after epoch 6: 81.16%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.0001_100_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.0001_100_256_1', 'load_model_name': 'rnn_classifier_128_0.0001_100_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:22<00:00,  8.58it/s]
+--- Epoch [1] Average Training Loss: 0.6764 ---
+Test Accuracy after epoch 1: 66.35%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:22<00:00,  8.56it/s]
+--- Epoch [2] Average Training Loss: 0.5547 ---
+Test Accuracy after epoch 2: 74.66%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:22<00:00,  8.57it/s]
+--- Epoch [3] Average Training Loss: 0.4795 ---
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 3: 78.16%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:22<00:00,  8.54it/s]
+--- Epoch [4] Average Training Loss: 0.4311 ---
+Test Accuracy after epoch 4: 79.09%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:22<00:00,  8.55it/s]
+--- Epoch [5] Average Training Loss: 0.3903 ---
+Test Accuracy after epoch 5: 81.91%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:22<00:00,  8.53it/s]
+--- Epoch [6] Average Training Loss: 0.3562 ---
+Test Accuracy after epoch 6: 80.96%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.0001_100_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.0001, 'embed_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.0001_100_256_2', 'load_model_name': 'rnn_classifier_128_0.0001_100_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:50<00:00,  3.90it/s]
+--- Epoch [1] Average Training Loss: 0.6513 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 69.08%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:50<00:00,  3.91it/s]
+--- Epoch [2] Average Training Loss: 0.5175 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 78.14%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [3] Average Training Loss: 0.4279 ---
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 3: 80.74%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:50<00:00,  3.90it/s]
+--- Epoch [4] Average Training Loss: 0.3580 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 84.28%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:50<00:00,  3.90it/s]
+--- Epoch [5] Average Training Loss: 0.3157 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 85.02%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:50<00:00,  3.89it/s]
+--- Epoch [6] Average Training Loss: 0.2873 ---
+Test Accuracy after epoch 6: 83.90%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.0001_100_256_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.0001_200_128_1', 'load_model_name': 'rnn_classifier_128_0.0001_200_128_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:15<00:00, 12.82it/s]
+--- Epoch [1] Average Training Loss: 0.6839 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 59.40%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:14<00:00, 13.07it/s]
+--- Epoch [2] Average Training Loss: 0.6396 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 70.76%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:15<00:00, 12.88it/s]
+--- Epoch [3] Average Training Loss: 0.5055 ---
+Test Accuracy after epoch 3: 78.23%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:15<00:00, 12.67it/s]
+--- Epoch [4] Average Training Loss: 0.4112 ---
+Test Accuracy after epoch 4: 81.17%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:15<00:00, 12.96it/s]
+--- Epoch [5] Average Training Loss: 0.3532 ---
+Test Accuracy after epoch 5: 82.53%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:15<00:00, 12.81it/s]
+--- Epoch [6] Average Training Loss: 0.3127 ---
+Test Accuracy after epoch 6: 83.74%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.0001_200_128_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.0001_200_128_2', 'load_model_name': 'rnn_classifier_128_0.0001_200_128_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:23<00:00,  8.38it/s]
+--- Epoch [1] Average Training Loss: 0.6684 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 70.16%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:23<00:00,  8.39it/s]
+--- Epoch [2] Average Training Loss: 0.4969 ---
+Test Accuracy after epoch 2: 78.38%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:23<00:00,  8.38it/s]
+--- Epoch [3] Average Training Loss: 0.4008 ---
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 3: 81.21%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:23<00:00,  8.36it/s]
+--- Epoch [4] Average Training Loss: 0.3479 ---
+Test Accuracy after epoch 4: 83.98%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:23<00:00,  8.39it/s]
+--- Epoch [5] Average Training Loss: 0.3112 ---
+Test Accuracy after epoch 5: 78.50%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:23<00:00,  8.37it/s]
+--- Epoch [6] Average Training Loss: 0.2814 ---
+Test Accuracy after epoch 6: 85.76%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.0001_200_128_2.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.0001_200_256_1', 'load_model_name': 'rnn_classifier_128_0.0001_200_256_1'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:25<00:00,  7.55it/s]
+--- Epoch [1] Average Training Loss: 0.6659 ---
+Test Accuracy after epoch 1: 69.01%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:26<00:00,  7.54it/s]
+--- Epoch [2] Average Training Loss: 0.5210 ---
+Test Accuracy after epoch 2: 78.00%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:26<00:00,  7.52it/s]
+--- Epoch [3] Average Training Loss: 0.4178 ---
+Test Accuracy after epoch 3: 80.68%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:26<00:00,  7.51it/s]
+--- Epoch [4] Average Training Loss: 0.3719 ---
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 4: 82.51%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:26<00:00,  7.49it/s]
+--- Epoch [5] Average Training Loss: 0.3201 ---
+Test Accuracy after epoch 5: 83.91%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:26<00:00,  7.50it/s]
+--- Epoch [6] Average Training Loss: 0.2928 ---
+Test Accuracy after epoch 6: 84.74%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.0001_200_256_1.pth.
+
+
+=======================================
+Running with config: {'batch_size': 128, 'learning_rate': 0.0001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_128_0.0001_200_256_2', 'load_model_name': 'rnn_classifier_128_0.0001_200_256_2'}
+=======================================
+
+Loading vocabulary from vocab.pkl...
+
+=== Starting Epoch 1/6 ===
+Epoch 1: 100%|██████████| 196/196 [00:53<00:00,  3.65it/s]
+--- Epoch [1] Average Training Loss: 0.6201 ---
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 1: 76.29%
+
+=== Starting Epoch 2/6 ===
+Epoch 2: 100%|██████████| 196/196 [00:53<00:00,  3.64it/s]
+--- Epoch [2] Average Training Loss: 0.4331 ---
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 2: 81.57%
+
+=== Starting Epoch 3/6 ===
+Epoch 3: 100%|██████████| 196/196 [00:54<00:00,  3.62it/s]
+--- Epoch [3] Average Training Loss: 0.3609 ---
+Test Accuracy after epoch 3: 83.22%
+
+=== Starting Epoch 4/6 ===
+Epoch 4: 100%|██████████| 196/196 [00:53<00:00,  3.64it/s]
+--- Epoch [4] Average Training Loss: 0.3056 ---
+Test Accuracy after epoch 4: 84.70%
+
+=== Starting Epoch 5/6 ===
+Epoch 5: 100%|██████████| 196/196 [00:53<00:00,  3.63it/s]
+--- Epoch [5] Average Training Loss: 0.2657 ---
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Test Accuracy after epoch 5: 86.04%
+
+=== Starting Epoch 6/6 ===
+Epoch 6: 100%|██████████| 196/196 [00:53<00:00,  3.63it/s]
+--- Epoch [6] Average Training Loss: 0.2275 ---
+Test Accuracy after epoch 6: 86.61%
+
+Training complete. Best Test Accuracy: 88.53%
+Saved final model to models/rnn_classifier_128_0.0001_200_256_2.pth.
+
+
+=======================================
+Grid Search Complete!
+Best Accuracy: 88.53%
+Best Config:
+{'batch_size': 64, 'learning_rate': 0.001, 'embed_dim': 200, 'hidden_dim': 256, 'num_layers': 1, 'bidirectional': True, 'num_epochs': 6, 'print_batches_label_amount': 0, 'print_batches_raw': False, 'print_batches_raw_indices': [0, 12499, 12500, 24999], 'save_model_name': 'rnn_classifier_64_0.001_200_256_1', 'load_model_name': 'rnn_classifier_64_0.001_200_256_1'}
+=======================================
+
+Process finished with exit code 0

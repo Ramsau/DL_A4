@@ -60,7 +60,10 @@ def build_vocab_from_dataset(dataset, vocab_file="vocab.pkl"):
 
     return vocab
 
+best_test_accuracy = 0.0
+
 def main(config):
+    global best_test_accuracy
     print("\n=======================================")
     print(f"Running with config: {config}")
     print("=======================================\n")
@@ -98,7 +101,7 @@ def main(config):
 
     train_losses = []
     test_losses = []
-    best_test_accuracy = 0.0
+
 
     for epoch in range(config['num_epochs']):
         print(f"\n=== Starting Epoch {epoch + 1}/{config['num_epochs']} ===")
@@ -141,38 +144,63 @@ def main(config):
         test_accuracy = 100.0 * correct / total
         print(f"Test Accuracy after epoch {epoch + 1}: {test_accuracy:.2f}%")
 
+        os.makedirs("best_model", exist_ok=True)
+        save_path = os.path.join("best_model", config['save_model_name'] + f"_{epoch + 1}" + "_best.pth")
+
         if test_accuracy > best_test_accuracy:
+
+            folder = "best_model"
+
+            for file in os.listdir(folder):
+                file_path = os.path.join(folder, file)
+                if os.path.isfile(file_path):
+                    os.remove(file_path)
+
+            print(f"All files in '{folder}' have been deleted.")
+
             best_test_accuracy = test_accuracy
             torch.save({
                 'model_state_dict': model.state_dict(),
                 'vocab': vocab,
-            }, config['save_model_name'] + "_best.pth")
+            }, save_path)
 
         if config['print_batches_raw']:
             debug_print_sample(model, dataset_test, vocab, device, config)
 
-    final_save_path = config['save_model_name'] + ".pth"
+    os.makedirs("models", exist_ok=True)
+    save_path = os.path.join("models", config['save_model_name']+ ".pth")
+
     torch.save({
         'model_state_dict': model.state_dict(),
         'vocab': vocab,
-    }, final_save_path)
+    }, save_path)
     print(f"\nTraining complete. Best Test Accuracy: {best_test_accuracy:.2f}%")
-    print(f"Saved final model to {final_save_path}.\n")
+    print(f"Saved final model to {save_path}.\n")
 
+    epochs = range(1, len(train_losses) + 1)
     plt.figure(figsize=(20, 10))
-    plt.plot(train_losses, label='Training Loss')
-    plt.plot(test_losses, label='Test Loss')
+    plt.plot(epochs, train_losses, label='Training Loss')
+    plt.plot(epochs, test_losses, label='Test Loss')
     plt.legend()
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
-    plt.title(f"Loss Curves for config: {config}")
-    plt.show()
+    plt.title(f"Loss Curves")
+
+    save_folder = "plots"
+    os.makedirs(save_folder, exist_ok=True)
+    config_str = f"{config['batch_size']}_{config['learning_rate']}_{config['embed_dim']}_{config['hidden_dim']}_{config['num_layers']}"
+
+    filename = f"loss_curves_{config_str}.png"
+    save_path = os.path.join(save_folder, filename)
+
+    plt.savefig(save_path)
 
     return best_test_accuracy
 
 
 def run_grid_search():
     configs = get_grid_configs()
+    print(f"Number of configs to check {len(configs)}")
     best_acc = 0.0
     best_config = None
 

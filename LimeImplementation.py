@@ -54,7 +54,7 @@ def explain_with_lime(model, vocab, device, text_sample):
 
     exp = explainer.explain_instance(text_sample, predictor, num_features=10)
 
-    html_file = "lime_explanation.html"
+    html_file = "lime_explanation_result.html"
     exp.save_to_file(html_file)
 
     logger.info(f"LIME explanation saved to {html_file}. Open this file in a browser to view it.")
@@ -62,7 +62,7 @@ def explain_with_lime(model, vocab, device, text_sample):
 
 
 def load_model(config, device):
-    checkpoint = torch.load(config['load_model_name'] + ".pth", map_location=device, weights_only=False)
+    checkpoint = torch.load("best_model/rnn_classifier_64_0.001_200_256_1_4_best.pth", map_location=device, weights_only=False)
     saved_vocab = checkpoint['vocab']
 
     model = RNNClassifier(vocab_size=len(saved_vocab.itos), embed_dim=config['embed_dim'],
