@@ -79,7 +79,7 @@ train_sizes, train_scores, val_scores = learning_curve(
     model,
     X_train_all,
     y_train_all,
-    cv=5,  # 5-fold cross-validation
+    cv=5,
     scoring='accuracy',
     n_jobs=-1,
     train_sizes=np.linspace(0.1, 1.0, 5),
