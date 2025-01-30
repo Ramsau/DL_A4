@@ -1,4 +1,3 @@
-# Dependencies
 import os
 import pickle
 import torch
@@ -9,9 +8,8 @@ from torch.utils.data import DataLoader
 
 from dataset import IMDBDataset
 
-from tqdm import tqdm  # Fancy training progress bar
+from tqdm import tqdm
 
-# Our includes
 from vocab import Vocabulary
 from model import RNNClassifier
 from config import *
@@ -32,7 +30,7 @@ def debug_print_sample(model, dataset, vocab, device, config):
         prediction = torch.sigmoid(output) >= 0.5
 
         print(f"\nSample index {i}:")
-        print(f"Text: {text[:200]}...")  # Only print first 200 characters
+        print(f"Text: {text[:200]}...")
         print(f"Prediction: {prediction.item()}, True label: {label}")
         print("---")
 
@@ -68,14 +66,11 @@ def main(config):
     print(f"Running with config: {config}")
     print("=======================================\n")
 
-    # Create datasets
     dataset_train = IMDBDataset(train=True)
     dataset_test = IMDBDataset(train=False)
 
-    # Build/load vocabulary
     vocab = build_vocab_from_dataset(dataset_train)
 
-    # Create DataLoaders
     train_loader = DataLoader(
         dataset_train, batch_size=config["batch_size"], shuffle=True,
         collate_fn=lambda batch: collate_fn(batch, vocab)

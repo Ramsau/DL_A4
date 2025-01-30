@@ -11,7 +11,7 @@ from config import get_config
 
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from matplotlib import pyplot as plt
-from tqdm import tqdm  # Fancy training progress bar
+from tqdm import tqdm
 
 def collate_fn(batch, vocab, max_seq_len=None):
     texts, labels = zip(*batch)
@@ -46,7 +46,6 @@ def main(config, sample_index=None):
 
     dataset_test = IMDBDataset(train=False)
 
-    # use sample_index = -1 to test over all samples
     if sample_index == -1:
         dataloader = DataLoader(dataset_test, batch_size=256, collate_fn=lambda batch: collate_fn(batch, saved_vocab))
 
