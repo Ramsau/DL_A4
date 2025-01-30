@@ -92,6 +92,8 @@ def main(config):
         num_layers=config['num_layers'],
         bidirectional=config['bidirectional']
     )
+    num_params = sum(p.numel() for p in model.parameters())
+    print("Number of parameters: {}".format(num_params))
 
     criterion = nn.BCEWithLogitsLoss()
     optimizer = optim.Adam(model.parameters(), lr=config['learning_rate'])
